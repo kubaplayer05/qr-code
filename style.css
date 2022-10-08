@@ -13,11 +13,13 @@
 
 html {
     font-family: 'Outfit',sans-serif;
+    height: -webkit-fill-available;
 }
 
 body {
-    background-color: var(--light-gray);
     height: 100vh;
+    height: -webkit-fill-available;
+    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
